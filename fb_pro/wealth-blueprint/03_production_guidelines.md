@@ -8,7 +8,7 @@ Dokumen ini memuat panduan produksi visual, audio, serta standar desain aset gra
 
 ### Skema Palet Warna (*Color Palette*)
 
-Konsistensi visual merupakan tanda pengenal utama merek animasi tanpa wajah (*faceless channel*). Dua warna utama wajib hadir di setiap konten:
+Konsistensi visual merupakan tanda pengenal utama merek animasi tanpa wajah (*faceless channel*). Lima warna utama wajib hadir di setiap konten:
 
 | Elemen | Kode Hex | Peran Penggunaan |
 |---|---|---|
@@ -16,7 +16,7 @@ Konsistensi visual merupakan tanda pengenal utama merek animasi tanpa wajah (*fa
 | **Wealth Gold** | `#C99E43` | Aksen angka, kata kunci penekanan (*highlight*), grafik naik |
 | **Surface Dark** | `#12192F` | Card UI, box framework, kontras sekunder |
 | **Pure White** | `#FFFFFF` | Teks narasi utama, subjudul, ikonografi |
-| **Danger Red** | `#E53935` | Peringatan hutang, biaya tersembunyi, grafik minus |
+| **Danger Red** | `#E53935` | Peringatan hutang, biaya tersembunyi, serpihan krisis (*faceted shards*) |
 
 ---
 
@@ -27,7 +27,47 @@ Pada Facebook Reels dan feed video Facebook:
 
 ---
 
-## 2. Standar Thumbnail Video (In-Stream 3+ Menit)
+## 2. Standar Gaya Visual & Hook Scene (*Visual Archetypes*)
+
+Wealth Blueprint mengadopsi pendekatan visual berbasis vektor isometrik geometris (*Faceted Isometric Vector Style*) yang memadukan ketegangan dramatis dengan kesederhanaan grafis berbobot tinggi.
+
+### Aset Referensi Visual Resmi di Folder Proyek:
+* 📁 `assets/vertical_hook_layout_9x16.jpg` — **Desain Hook Vertikal 9:16 (Reels/Shorts/TikTok)**
+* 📁 `assets/vector_hook_reference.jpg` — **Hook Awal Vector Horizontal 16:9 ("THE DEBT TRAP")**
+* 📁 `assets/vector_style_reference.jpg` — **Infografis Breakdown Diagram Geometris**
+* 📁 `assets/visual_style_reference.jpg` — **Sinematik Dark Mode Alternatif**
+
+---
+
+### Spesifikasi Layout Vertikal 9:16 (Facebook Reels & Shorts)
+
+Berdasarkan aset `assets/vertical_hook_layout_9x16.jpg` (Ukuran Standar: 1080 x 1920 piksel):
+
+```text
+┌─────────────────────────────────────────────────────────────┐  Y: 0px
+│ [Top Safe Margin - Hindari Notch & UI Bar] (0 - 180px)      │
+├─────────────────────────────────────────────────────────────┤
+│ • Badge Seri: "WEALTH BLUEPRINT • FRAMEWORK #01"           │  Y: 200px
+│ • Hook Title: "THE DEBT" (Gold #C99E43)                   │  Y: 310px
+│ • Action Word: "TRAP" (White #FFFFFF, Font 114pt)          │  Y: 405px
+│ • Subtitle: "How Banks Trap Americans In Minimum Payments"  │  Y: 545px
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│             HERO VISUAL CENTER (Eye Level)                  │  Y: 620 - 1450px
+│      Kartu Kredit Retak + Serpihan Poligon Merah            │
+│               + Balok Isometrik Emas Naik                   │
+│                                                             │
+├─────────────────────────────────────────────────────────────┤
+│ FLOATING METRIC CARDS:                                      │  Y: 1500px
+│ [Card 1: 24.99% APR (Red)]   [Card 2: 27.4 YEARS (Gold)]    │
+├─────────────────────────────────────────────────────────────┤
+│ [Bottom Safe Zone - Caption & Sound Title Area] (1750-1920) │
+└─────────────────────────────────────────────────────────────┘  Y: 1920px
+```
+
+---
+
+## 3. Standar Thumbnail Video (In-Stream 3+ Menit)
 
 Thumbnail adalah iklan pertama video. Pengguna media sosial mengambil keputusan klik dalam waktu **0.3 detik**.
 
@@ -36,14 +76,14 @@ Thumbnail adalah iklan pertama video. Pengguna media sosial mengambil keputusan 
    * ❌ *"Tips Investasi Saham"*
    * ✅ *"Why 93% of Investors Fail in Year One"*
    * ❌ *"Cara Keluar dari Hutang"*
-   * ✅ *"$40K Debt → $0 in 18 Months"*
+   * ✅ *"0K Debt → bash in 18 Months"*
 2. **Kontras Ekstrem:** Tulisan wajib terbaca jelas di layar smartphone kecil (background gelap pekat dengan teks emas/putih tebal).
 3. **Satu Pesan Utama:** Jangan memuat lebih dari 5–7 kata pada visual thumbnail.
-4. **Visual Dramatis Pengganti Wajah:** Karena tidak menggunakan foto wajah manusia, gunakan visual pengikat perhatian: grafik yang menukik ekstrem, metafora visual (tikus dalam labirin kartu kredit, rantai bunga bank), atau perbandingan visual 2 kubu.
+4. **Visual Dramatis Pengganti Wajah:** Karena tidak menggunakan foto wajah manusia, gunakan visual pengikat perhatian: grafik yang menukik ekstrem, metafora visual (kartu kredit terbelah, rantai bunga bank), atau perbandingan visual 2 kubu.
 
 ---
 
-## 3. Panduan Audio & Sound Design
+## 4. Panduan Audio & Sound Design
 
 ### Prinsip Inti Audio:
 * **Wajib Tanpa Vokal (No Lyrics):** Lirik lagu akan bersaing dengan pemrosesan otak penonton dalam menyerap narasi.
@@ -65,7 +105,7 @@ Thumbnail adalah iklan pertama video. Pengguna media sosial mengambil keputusan 
 
 Untuk menjamin kualitas profesional dan keterbacaan suara narasi (*voiceover*):
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │ 100% ──── [Voiceover Level Standar: -6dB s/d -3dB]          │
 │                                                             │
@@ -82,7 +122,7 @@ Untuk menjamin kualitas profesional dan keterbacaan suara narasi (*voiceover*):
 
 ---
 
-## 4. Sumber Lisensi Musik Bebas Masalah Copyright
+## 5. Sumber Lisensi Musik Bebas Masalah Copyright
 
 * **Epidemic Sound (Rekomendasi Utama):** Memiliki integrasi whitelist langsung ke akun Meta/Facebook, mencegah klaim otomatis atau mute audio.
 * **Artlist:** Lisensi komersial seumur hidup per track yang diunduh.

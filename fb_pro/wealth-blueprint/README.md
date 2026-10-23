@@ -16,6 +16,7 @@ Seluruh strategi yang sebelumnya tersebar telah direstrukturisasi secara modular
 | **04** | **Publishing & Distribution** | Sinkronisasi zona waktu US (EST) vs WIB, jadwal tayang mingguan, otomasi penjadwalan, dan cross-posting. | [04_publishing_distribution.md](file:///home/aris/aris/Project/content-creation/fb_pro/wealth-blueprint/04_publishing_distribution.md) |
 | **05** | **Monetization Roadmap** | Syarat teknis monetisasi Facebook (600K menit & 5K followers), proyeksi RPM US, dan funnel bisnis bertahap. | [05_monetization_roadmap.md](file:///home/aris/aris/Project/content-creation/fb_pro/wealth-blueprint/05_monetization_roadmap.md) |
 | **06** | **Scripting Templates & Hooks** | Formula 3-point CTA, bank 3 tipe hook, taktik viralitas Reels (loop & comment bait), dan template naskah 3 menit. | [06_scripting_templates.md](file:///home/aris/aris/Project/content-creation/fb_pro/wealth-blueprint/06_scripting_templates.md) |
+| **07** | **Hook Analysis Template** | Rubrik skoring 1–10, 5-point acid test, tabel analisis kelemahan judul & formula revisi high-retention. | [07_hook_analysis_template.md](file:///home/aris/aris/Project/content-creation/fb_pro/wealth-blueprint/07_hook_analysis_template.md) |
 
 ---
 
